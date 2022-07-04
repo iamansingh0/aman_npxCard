@@ -6,5 +6,5 @@ npx amank
 
 output:
 <p align="center">
-  <img src="result.png" width=300, height=300>
+  <img src="result.png" width=600, height=350>
 </p>
