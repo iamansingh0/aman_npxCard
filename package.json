@@ -1,0 +1,35 @@
+{
+  "name": "amanme",
+  "version": "2.0.0",
+  "description": "A personal card for Aman Kumar Singh (@iamansingh0)",
+  "main": "card.js",
+  "type": "module",
+  "bin": {
+    "aman": "./card.js"
+  },
+  "scripts": {
+    "test": "node card.js",
+    "pub": "npm version major & npm publish"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.6.1",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.0.0",
+    "open": "^8.4.0",
+    "ora": "^6.1.2",
+    "request": "^2.88.2"
+  }
+}
