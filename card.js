@@ -5,10 +5,6 @@ import chalk from 'chalk';
 import inquirer from 'inquirer';
 import clear from 'clear';
 import open from 'open';
-import request from 'request';
-import path from 'path';
-import ora from 'ora';
-import cliSpinners from 'cli-spinners';
 
 clear();
 
@@ -40,7 +36,7 @@ const questions = [
 const data = {
     name: chalk.bold.green("                        Aman Kumar Singh"),
     handle: chalk.white("@iamansingh0"),
-    title: `${chalk.white("Blockchain Developer")}`,
+    title: `${chalk.white("Software Developer")}`,
     github: chalk.gray("https://github.com/") + chalk.red("iamansingh0"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.red("aman-kumar-singh-08b2b220b"),
     npx: chalk.red("npx") + " " + chalk.white("aman"),
@@ -65,9 +61,9 @@ const me = boxen(
         `${chalk.italic(
             "Hi, thanks for dropping by! "
         )}`,
-        `${chalk.italic("     I am currently learning solidity, and hardhat and its tools. ")}`,
+        `${chalk.italic("     🌱 I’m currently learning Backend Development with Spring Boot!! ")}`,
         `${chalk.italic(
-            "           I want to become a nice blockchain developer in the community"
+            "           Aspiring to be a skilled software developer contributing to the community."
         )}`
     ].join("\n"),
     {
